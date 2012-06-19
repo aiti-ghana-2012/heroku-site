@@ -18,6 +18,13 @@ def gitlab():
 	
 	return flask.render_template('lab.jinja',instruction_html=markdown.markdown(instruction_text))
 
+@app.route('/labs/python-intro')
+def pylab_first():
+	instruction_file = open('labs/python-intro.md')
+	instruction_text = instruction_file.read()
+	instruction_file.close()
+	
+	return flask.render_template('lab.jinja',instruction_html=markdown.markdown(instruction_text))
 
 if __name__ == "__main__":
 	port = int(os.environ.get('PORT',5523))
