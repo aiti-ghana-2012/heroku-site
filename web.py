@@ -8,23 +8,18 @@ app.debug = False
 
 
 
+	
+@app.route('/labs/<slug>')
+def lab_instructions(slug):
+	
+	try:
+		instruction_file = open('labs/%s.md'%slug)
+		instruction_text = instruction_file.read()
+		instruction_file.close()
+		return flask.render_template('lab.jinja',instruction_html=markdown.markdown(instruction_text))
 
-@app.route('/labs/git-getting-started')
-def gitlab():
-	
-	instruction_file = open('labs/git-getting-started.md')
-	instruction_text = instruction_file.read()
-	instruction_file.close()
-	
-	return flask.render_template('lab.jinja',instruction_html=markdown.markdown(instruction_text))
-
-@app.route('/labs/python-intro')
-def pylab_first():
-	instruction_file = open('labs/python-intro.md')
-	instruction_text = instruction_file.read()
-	instruction_file.close()
-	
-	return flask.render_template('lab.jinja',instruction_html=markdown.markdown(instruction_text))
+	except IOError:
+		return flask.abort(404)
 
 if __name__ == "__main__":
 	port = int(os.environ.get('PORT',5523))
