@@ -30,3 +30,10 @@ Steps:
 
  5. You now have a copy of your lab on the computer that you are working on!
     Follow the instructions in the file `instructions.pdf` to start this lab.
+
+
+
+## Useful Documentation:
+ - Strings: [http://docs.python.org/library/stdtypes.html#string-methods](http://docs.python.org/library/stdtypes.html#string-methods)
+ - Numerics: [http://docs.python.org/library/stdtypes.html#numeric-types-int-float-long-complex](http://docs.python.org/library/stdtypes.html#numeric-types-int-float-long-complex)
+ - Booleans: [http://docs.python.org/library/stdtypes.html#boolean-operations-and-or-not](http://docs.python.org/library/stdtypes.html#boolean-operations-and-or-not)
