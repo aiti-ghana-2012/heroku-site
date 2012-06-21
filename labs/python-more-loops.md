@@ -22,7 +22,7 @@ Steps:
  4. Ok - now use `git` to __Clone__ the repository that you created in step 2 to the machine that you are working on.
     The command for this will be 
 
-    `git clone https://github.com/{{ your user name }}/Lab_Python_02.git`.
+    `git clone https://github.com/{{ your user name }}/Lab_Python_03.git`.
     
 
     (where your should substitute `{{ your user name}}` for your github username)
