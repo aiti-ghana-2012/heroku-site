@@ -1,10 +1,11 @@
 # Lab 4
 ## Moooooooooore Looooooooooooooops
 
+
 Steps:
 
  1. __Sign in to github__ and go to the AITI repository for this lab:
-    [www.github.com/aiti-ghana-2012/Lab_Python_03](http://www.github.com/aiti-ghana-2012/Lab_Python_02)
+    [www.github.com/aiti-ghana-2012/Lab_Python_03](http://www.github.com/aiti-ghana-2012/Lab_Python_03)
 
  3. In the upper right hand corner of the screen, __FORK THIS LAB__ by clicking the
     ![Fork](/static/images/github-fork-button.jpg) button.
