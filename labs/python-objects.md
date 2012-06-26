@@ -28,7 +28,7 @@ Steps:
 
  7. Add the `instructors` remote _now_ using the command
     
-    `git add remote instructors https://github.com/aiti-ghana-2012/Lab_Python_06.git`
+    `git remote add instructors https://github.com/aiti-ghana-2012/Lab_Python_06.git`
 
     so that when we publish solutions and tests you just have to do a `git pull instructors master`
 

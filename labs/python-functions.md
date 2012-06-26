@@ -33,7 +33,7 @@ Steps:
 
  7. It might be a good idea to add the `instructors` remote now using the command
     
-    `git add remote instructors https://github.com/aiti-ghana-2012/Lab_Python_05.git`
+    `git remote add instructors https://github.com/aiti-ghana-2012/Lab_Python_05.git`
 
     so that when we publish solutions you just have to do a `git pull instructors master`
 
